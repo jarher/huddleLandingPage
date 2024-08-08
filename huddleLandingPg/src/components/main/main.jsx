@@ -7,25 +7,9 @@ const imgProperties = {
   alt: "illustration mokups",
 };
 
-const headingProps = {
-  className: "text-light lh-base",
-  style: { fontWeight: "600", fontStyle: "normal" },
-};
-
-const paragraphProps = {
-  className: "text-light mt-4 lh-base px-1",
-  style: {
-    fontWeight: "400",
-    fontStyle: "normal",
-    fontSize: "1.1rem",
-  },
-};
-
 const buttonProps = {
-  size: "sm",
-  className: "rounded-pill mt-3 p-2 shadow-sm",
+  className: "rounded-pill mt-3",
   variant: "light",
-  style: { color: "hsl(257, 40%, 49%)" },
 };
 
 const Main = () => {
@@ -36,8 +20,10 @@ const Main = () => {
           <Image className="img-fluid" {...imgProperties} />
         </Col>
         <Col xs={12} lg={5}>
-          <h1 {...headingProps}>Build The Community Your Fans Will Love</h1>
-          <p {...paragraphProps}>
+          <h1 className="text-light lh-base">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p className="text-light mt-4 lh-base px-1">
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.

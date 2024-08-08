@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
 }
 .container-fluid {
   background: url("./assets/images/bg-mobile.svg") hsl(257, 40%, 49%);
@@ -8,9 +7,13 @@ html {
   background-position: top left;
   background-size: contain;
   text-align: center;
+  padding: 2.1875rem !important;
 }
 @media screen and (min-width: 1024px) {
   .container-fluid {
-    background: url("./assets/images/bg-desktop.svg") hsl(257, 40%, 49%);
+    background: url("./assets/images/bg-desktop.svg") hsl(257, 40%, 49%)
+      no-repeat;
+    min-height: 100vh;
+    padding: 4rem 4.5rem 0 !important;
   }
 }

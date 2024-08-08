@@ -10,5 +10,6 @@ footer .navbar-expand {
   }
   footer .navbar-expand {
     justify-content: flex-end;
+    margin: 1rem 0;
   }
 }

@@ -1,10 +1,27 @@
 main .row div {
   margin-top: 4.375rem;
 }
+main h1 {
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+main p,
+button {
+  font-family: "open sans", sans-serif;
+}
+main p {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.17rem;
+}
 button {
   width: 70%;
   transition: all 0.2s ease-in-out !important;
   border: none !important;
+  color: hsl(257, 40%, 49%) !important;
+  box-shadow: 5px 0 10px hsl(258, 40%, 24%);
+  font-weight: 600 !important;
 }
 button:hover {
   background-color: hsl(300, 69%, 71%) !important;
@@ -12,13 +29,23 @@ button:hover {
 }
 @media screen and (min-width: 1024px) {
   main .row {
-    margin-top: 3.125rem;
+    margin-top: 5.125rem;
   }
   main .row div {
     text-align: left;
     margin-top: 0;
   }
+  main h1 {
+    font-size: 2.5rem;
+  }
   button {
     width: 40%;
+    padding: 0.8rem !important;
+    font-size: 1.3rem !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main h1 {
+    margin-top: 2.8rem;
   }
 }

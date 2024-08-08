@@ -1,4 +1,12 @@
+a {
+  font-size: 0.8rem;
+}
 a:hover {
   border-color: hsl(300, 69%, 71%) !important;
   color: hsl(300, 69%, 71%) !important;
+}
+@media screen and (min-width: 1024px) {
+  a {
+    font-size: 1.2rem !important;
+  }
 }

@@ -16,7 +16,6 @@ const classes = [
 const linkProps = {
   href: "./",
   className: [...classes],
-  style: { fontSize: "0.8rem" },
 };
 
 const Link = ({ children }) => {
