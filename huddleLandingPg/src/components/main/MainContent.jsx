@@ -12,7 +12,7 @@ const buttonProps = {
   variant: "light",
 };
 
-const Main = () => {
+const MainContent = () => {
   return (
     <main>
       <Row>
@@ -35,4 +35,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainContent;
