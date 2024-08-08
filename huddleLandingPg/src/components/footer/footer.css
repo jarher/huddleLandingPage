@@ -1,0 +1,14 @@
+footer {
+  margin-top: 3.9375rem;
+}
+footer .navbar-expand {
+  justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    margin-top: 0;
+  }
+  footer .navbar-expand {
+    justify-content: flex-end;
+  }
+}

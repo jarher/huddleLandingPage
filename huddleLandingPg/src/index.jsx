@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Container className="container-fluid p-4">
+    <Container fluid className="p-4">
       <App />
     </Container>
   </React.StrictMode>

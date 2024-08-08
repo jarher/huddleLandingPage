@@ -1,0 +1,24 @@
+main .row div {
+  margin-top: 4.375rem;
+}
+button {
+  width: 70%;
+  transition: all 0.2s ease-in-out !important;
+  border: none !important;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%) !important;
+  color: white !important;
+}
+@media screen and (min-width: 1024px) {
+  main .row {
+    margin-top: 3.125rem;
+  }
+  main .row div {
+    text-align: left;
+    margin-top: 0;
+  }
+  button {
+    width: 40%;
+  }
+}

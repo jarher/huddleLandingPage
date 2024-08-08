@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { Nav } from "react-bootstrap";
+import "./link.css";
 
-const classNames = [
+const classes = [
   "text-light",
   "rounded-circle",
   "border",
@@ -11,12 +12,15 @@ const classNames = [
   "align-content-center",
   "justify-content-center",
 ];
+
+const linkProps = {
+  href: "./",
+  className: [...classes],
+  style: { fontSize: "0.8rem" },
+};
+
 const Link = ({ children }) => {
-  return (
-    <Nav.Link href="./" className={[...classNames]}>
-      {children}
-    </Nav.Link>
-  );
+  return <Nav.Link {...linkProps}>{children}</Nav.Link>;
 };
 
 export default Link;

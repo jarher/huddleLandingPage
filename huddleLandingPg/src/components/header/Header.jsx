@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <Row>
-        <Col xs={4}>
+        <Col xs={4} sm={3} md={2}>
           <Image {...logoProperties} />
         </Col>
       </Row>
