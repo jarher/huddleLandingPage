@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-react-react-bootstrap-react-icons-7R1vLnuQap]
 - Live Site URL: [https://huddle-landing-page-2wjs.vercel.app/]
 
 ## My process
